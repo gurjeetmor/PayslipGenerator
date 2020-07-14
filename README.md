@@ -1,7 +1,5 @@
 # Generate one or more Employees Monthly Payslips
 
-## <a href = "https://gurjeetmor.github.io/RockPaperScissorsGame/" > Live Here </a>
-
 # Project Overview
 
 ## Solution Structure
@@ -34,7 +32,7 @@
 * Or Open the solution within Visual Studio and restore NuGet packages.
 * Build the solution and run in any choice of browser.
 
-## For Testing the application
+## To Test the application
 * In Visual Studio just run all tests from Test menu or directly run the file under GeneratePayslipTest project.
 
 ## Executing the application
@@ -45,4 +43,4 @@
 - On the other hand, if user select the Form option then a Form will display on UI screen which allow the user to enter employee’s information. This form hastwo buttons, one to submit the entered employee details and second button allow user toenter the more than one employee details by adding employees and save the state as anArray of objects. When click on submit button all array value will be sending to backend for processing and will get the payslip details for all submitted employees. 
 
 
-<img src = "img/payslipGenerator.gif" alt = "" />
+<img src = "img/PayslipGenerator.gif" alt = "" />
