@@ -1,6 +1,7 @@
 ﻿import React, { Component } from 'react';
 import { Form, Button, Header, Input } from 'semantic-ui-react';
 import $ from 'jquery';
+import './NavMenu.css';
 
 //This component is used to display the employee detail form, allow user to submit employee details.
 //Display the processed employees payslip information
@@ -247,7 +248,7 @@ export class GenerateSingleEmployeePayslip extends Component {
                             </Form.Field>
                         </Form>
                         <br />
-                        <Button onClick={this.addMoreEmployee} className="ui secondary button">Add more employee detail
+                        <Button onClick={this.addMoreEmployee} className="ui secondary button">Add Employee
                 </Button>
                         <Button floated="right" onClick={this.finalSubmit} className="ui green button">Generate Payslips
                 </Button>

@@ -25,8 +25,8 @@ export class NavMenu extends Component {
     return (
       <header>
             <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
-          <Container>
-            <NavbarBrand style={{color:"blue"}} tag={Link} to="/">Generate Employee Monthly Payslip</NavbarBrand>
+                <Container>
+                    <NavbarBrand style={{ color: "#fed136", fontSize: "18px", fontWeight: "bold" }} tag={Link} to="/">Generate Employee Payslip</NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
             <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
               <ul className="navbar-nav flex-grow">

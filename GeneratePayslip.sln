@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratePayslip", "GeneratePayslip\GeneratePayslip.csproj", "{74F66693-4A8B-4115-9B40-CFF05110C921}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratePayslipTests", "GeneratePayslipTests\GeneratePayslipTests.csproj", "{06590D37-07D1-4C5A-AEF4-19DA0C8C5919}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratePayslipTests", "GeneratePayslipTests\GeneratePayslipTests.csproj", "{06590D37-07D1-4C5A-AEF4-19DA0C8C5919}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

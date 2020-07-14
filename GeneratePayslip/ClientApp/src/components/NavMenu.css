@@ -4,6 +4,11 @@
   word-break: break-all;
 }
 
+.text-dark {
+    color: #fed136 !important;
+    font-weight: bold;
+}
+
 html {
   font-size: 14px;
 }
@@ -15,5 +20,15 @@ html {
 
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.content {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .button {
+        margin: 0px !important;
+    }
 }
 
